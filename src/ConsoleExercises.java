@@ -18,7 +18,7 @@ public class ConsoleExercises {
         //   Prompt a user to enter 3 words, and store each of them in a separate variable. Then, display them back in the console, each on a newline.
         Scanner scanner2 = new Scanner(System.in);
 
-        System.out.println("Enter 3 words separated by a space/return:");
+        System.out.println("Enter 3 words separated by a space:");
 
         String string1 = scanner2.next();
         String string2 = scanner2.next();
