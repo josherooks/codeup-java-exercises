@@ -1,10 +1,10 @@
 package shapes;
 
 public class Rectangle {
-    private double length;
-    private double width;
+    protected double length;
+    protected double width;
 
-    public void Rectangle(double length, double width){
+    public Rectangle(double length, double width){
         this.length =length;
         this.width = width;
 
